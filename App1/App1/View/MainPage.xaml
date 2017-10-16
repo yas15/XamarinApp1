@@ -4,17 +4,55 @@
              xmlns:local="clr-namespace:App1.View"
              x:Class="App1.View.MainPage">
 
-    <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="20">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
 
-            <Label Text="Hello World!"/>
-            <Label Text="A second Line" FontSize="Large"/>
+            <Label Text="{Binding Prompt}" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="End"/>
+            <Label Text="{Binding Name}" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Start"/>
+            <Label Text="Lower Left" Grid.Row="1" Grid.Column="0"/>
+            <Label Text="Lower Right" Grid.Row="1" Grid.Column="1"/>
+
+        </Grid>
+
+            <Label Text="-------------" FontSize="Large"/>
+
+        <Grid>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+
+            <Label Text="Top Left" Grid.Row="0" Grid.Column="0"/>
+            <Label Text="Twice as High" Grid.Row="1" Grid.Column="0"/>
+
+            <Label Text="Row 3, very wide" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+        </Grid>
+            
+            
+            
+            
+            
+            
             
             <!--add a button element, and to this element add the event Clicked
-            Let visual studio autogenerate the event in the code behind -->
+            Let visual studio autogenerate the event in the code behind --><!--
 
-            <Button Text="Go to Page 2" Clicked="Button_Clicked" />
+            <Button Text="Go to Page 2" Clicked="Button_Clicked" />-->
             
         </StackLayout>
-    </ContentPage.Content>
 </ContentPage>
