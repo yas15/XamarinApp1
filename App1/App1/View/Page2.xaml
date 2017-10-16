@@ -7,8 +7,14 @@
         
         <Label Text="Page 2" FontSize="50"/>
 
-        <Image Source="Pics/R2-D2.ico"/>
 
+        <Image Source="C:\Users\Yasin\Documents\Visual Studio 2017\Projects\App1\App1\App1\Pics\R2-D21.png"/>
+
+        <Image Source="C:\Users\Yasin\Documents\Visual Studio 2017\Projects\App1\App1\App1.Android\Resources\drawable\R2-D21.png"/>
+        
+        
+        <Image Source="drawable\icon.png"/>
+        
         <Label Text="Page 2" FontSize="50"/>
 
     </StackLayout>
