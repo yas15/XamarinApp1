@@ -10,13 +10,18 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
+            
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
+
+            <!-- bind this text label to the Prompt property of the --> 
             <Label Text="{Binding Prompt}" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="End"/>
             <Label Text="{Binding Name}" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Start"/>
+            
+            
             <Label Text="Lower Left" Grid.Row="1" Grid.Column="0"/>
             <Label Text="Lower Right" Grid.Row="1" Grid.Column="1"/>
 
@@ -43,16 +48,11 @@
 
         </Grid>
             
-            
-            
-            
-            
-            
+                       
             
             <!--add a button element, and to this element add the event Clicked
-            Let visual studio autogenerate the event in the code behind --><!--
-
-            <Button Text="Go to Page 2" Clicked="Button_Clicked" />-->
+            Let visual studio autogenerate the event in the code behind--> 
+            <Button Text="Go to Page 2" Clicked="Button_Clicked" />
             
         </StackLayout>
 </ContentPage>

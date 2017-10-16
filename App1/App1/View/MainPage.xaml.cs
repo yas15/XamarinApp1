@@ -10,15 +10,17 @@ namespace App1.View
 {
     public partial class MainPage : ContentPage
     {
-
         MainPageViewModel vm;
 
         public MainPage()
         {
             InitializeComponent();
 
+            // let vm be a new object of type MainPageViewModel
             vm = new MainPageViewModel();
 
+            // set the BindingContext Property of the MainPage to vm
+            // we can now bind MainPageViewModel objects to the view MainPage
             BindingContext = vm;
 
         }
