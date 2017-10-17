@@ -8,23 +8,17 @@
 
         <Label Text="Page 2" FontSize="50"/>
 
-        <Label Text="Page 2" FontSize="50"/>
-
-        <Label Text="Page 2" FontSize="50"/>
-
-        <Image Source="pack://application:,,,/Pics/R2-D21.png"/>
-
-        <!--<Image Source="C:\Users\Yasin\Documents\Visual Studio 2017\Projects\App1\App1\App1.Android\Resources\drawable\R2-D21.png"/>-->
-        
-        
         <Image Source="drawable\icon.png"/>
-        
         <Image Source="drawable\icon.png"/>
 
+        <Label Text="R2D2" FontSize="50"/>
 
+        <Image Source= "pack://application:,,,/Images/C3PO.png"/>
 
-        <Label Text="Page 2" FontSize="50"/>
+        <Label Text="C3PO" FontSize="50"/>
 
+        <Image Source= "pack://application:,,,/Images/C3PO.png"/>
+       
     </StackLayout>
     
 </ContentPage>

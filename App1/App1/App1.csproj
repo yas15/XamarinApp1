@@ -82,8 +82,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Pics\R2-D2.ico" />
-    <Content Include="Pics\R2-D21.png" />
+    <Content Include="Images\C3PO.png" />
+    <Content Include="Images\R2-D2.ico" />
+    <Content Include="Images\R2D2.png" />
     <Content Include="View\R2-D21.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
