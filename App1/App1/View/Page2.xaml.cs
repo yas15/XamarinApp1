@@ -10,6 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace App1.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
+
     public partial class Page2 : ContentPage
     {
         public Page2()
