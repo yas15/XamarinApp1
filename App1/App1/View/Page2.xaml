@@ -1,24 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:a="clr-namespace:App1"
              x:Class="App1.View.Page2">
 
     <StackLayout Padding="20">
 
-
+        <Image Source="icon.png"/>
+        
         <Label Text="Page 2" FontSize="50"/>
 
         <Image Source="drawable\icon.png"/>
-        <Image Source="drawable\icon.png"/>
+
+        <Label Text="Page 2" FontSize="50"/>
+        <Image Source="Images\C3PO.png"/>
 
         <Label Text="R2D2" FontSize="50"/>
-
-        <Image Source= "pack://application:,,,/Images/C3PO.png"/>
+        
+        <Image Source= "C:\Users\Yasin\Documents\Visual Studio 2017\Projects\App1\App1\App1\Images\R2D2.png"/>
 
         <Label Text="C3PO" FontSize="50"/>
+        
+        <!--can not get the relative image path to work-->
+        <!--<Image Source= "C:\Users\Yasin\Documents\Visual Studio 2017\Projects\App1\App1\App1\Images\C3PO.png"/>-->
 
-        <Image Source= "pack://application:,,,/Images/C3PO.png"/>
-       
+        <Button Text="Go to Page 3" Clicked="Button_Clicked"/>
+        
     </StackLayout>
-    
 </ContentPage>

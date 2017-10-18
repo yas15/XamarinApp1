@@ -1,9 +1,5 @@
-﻿using App1.ViewModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using App1.ViewModel;
 using Xamarin.Forms;
 
 namespace App1.View
@@ -20,7 +16,7 @@ namespace App1.View
             vm = new MainPageViewModel();
 
             // set the BindingContext Property of the MainPage to vm
-            // we can now bind MainPageViewModel objects to the view MainPage
+            // i.e. set the datasource for all the objects in the MainPage View to the MainPageViewModel instance vm
             BindingContext = vm;
 
         }

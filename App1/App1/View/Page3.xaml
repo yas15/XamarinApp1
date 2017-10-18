@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.View.Page3">
+    <StackLayout Padding="20">
+
+        <Slider x:Name="mySlider" Minimum="0" Maximum="100" VerticalOptions="CenterAndExpand"/>
+
+        <!--set the BindingContext of the Label to the object mySlider, 
+        and set the Text of the label to the -->
+        <Label FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"
+               BindingContext="{x:Reference mySlider}"
+               Text="{Binding Value}"/>
+
+
+        <Label Text="{Binding LabelText}" BackgroundColor="Blue" TextColor="White"/>
+
+        
+        <!--Events such as click event are handled in the code behind, whereas Commands are handled in the viewModel
+        Bind this Button to the ChangeTextCommand in the corresponding viewModel -->
+        <Button Text="Click me!" BackgroundColor="Blue" TextColor="Yellow" Command="{Binding ChangeTextCommand}" />
+
+
+        <Image Source="icon.png" Aspect="AspectFit" WidthRequest="75" HeightRequest="75"/>
+
+
+
+    </StackLayout>
+    
+    
+</ContentPage>
