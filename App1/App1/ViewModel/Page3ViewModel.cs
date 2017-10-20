@@ -38,10 +38,7 @@ namespace App1.ViewModel
         }
 
 
-
-
         public event PropertyChangedEventHandler PropertyChanged;
-
 
         protected void RaisePropertyChanged([CallerMemberName] string caller = "")
         {

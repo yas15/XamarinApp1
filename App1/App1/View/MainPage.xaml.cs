@@ -18,7 +18,6 @@ namespace App1.View
             // set the BindingContext Property of the MainPage to vm
             // i.e. set the datasource for all the objects in the MainPage View to the MainPageViewModel instance vm
             BindingContext = vm;
-
         }
 
         private void Button_Clicked(object sender, EventArgs e)

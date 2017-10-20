@@ -6,23 +6,22 @@
 
     <StackLayout Padding="20">
 
-        <Image Source="icon.png"/>
-        
         <Label Text="Page 2" FontSize="50"/>
 
         <Image Source="drawable\icon.png"/>
 
-        <Label Text="Page 2" FontSize="50"/>
-        <Image Source="Images\C3PO.png"/>
+        <Label Text="" FontSize="50"/>
+
 
         <Label Text="R2D2" FontSize="50"/>
-        
-        <Image Source= "C:\Users\Yasin\Documents\Visual Studio 2017\Projects\App1\App1\App1\Images\R2D2.png"/>
+        <!-- To add an image, you need to add it to the Android project images folder 
+        i.e. App1.Android\Resources\drawable -->
+        <Image Source= "R2D2.png"/>
 
-        <Label Text="C3PO" FontSize="50"/>
         
-        <!--can not get the relative image path to work-->
-        <!--<Image Source= "C:\Users\Yasin\Documents\Visual Studio 2017\Projects\App1\App1\App1\Images\C3PO.png"/>-->
+        <Label Text="C3PO" FontSize="50"/>
+        <Image Source="C3PO.png"/>
+       
 
         <Button Text="Go to Page 3" Clicked="Button_Clicked"/>
         

@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace App1.ViewModel
 {
     class MainPageViewModel
